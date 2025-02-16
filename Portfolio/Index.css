@@ -35,20 +35,18 @@ nav img{
     width: 20%;
 }
 /* ---------------------------Fixed Nav bar here-------------------- */
-nav ul{
+/* nav ul{
     position:fixed;
     left: 40%;
-}
+} */
 nav ul li{
-   display: inline-block;
-   margin: 10px 45px;
-    list-style: none;
-    
+    display: inline-block;
+    margin: 10px 35px;
+    list-style: none;    
 }
 nav ul li a{
     color: rgb(197, 203, 213);
     text-decoration: none;
-    
     position: relative;
 }
 nav ul li a::after{
