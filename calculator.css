@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculator{
+    background-color: rgb(40, 40, 40);
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    padding: 25px;
+    width: 100%;
+    font-size: 4rem;
+    text-align: left;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(27, 27, 27, 0.819);
+    color: whitesmoke;
+    border: none;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(75, 73, 73, 0.89);
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.algebricKeys{
+    background-color: rgb(19, 218, 19);
+}
+
+button:hover{
+    background-color: rgb(82, 81, 81);
+}
+
+button:active{
+    background-color: rgb(103, 101, 101);
+}
+
+.algebricKeys:hover{
+    background-color: rgba(58, 233, 58, 0.978);
+}
+
+.algebricKeys:active{
+    background-color: rgba(99, 255, 99, 0.978);
+}
+#C{
+    position: relative;
+    left: 377px;
+}
